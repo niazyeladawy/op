@@ -1,8 +1,5 @@
-import {  ChevronLeft, ChevronRight } from "lucide-react"
 import Container from "./Container"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel"
-import OFFPlanCard from "./OFFPlanCard"
-import { ArrowLeftIcon, ArrowRightIcon } from "./icons/CustomIcon"
+
 import OffPlanCarousel from "./OffPlanCarousel"
 
 const OffPlan = () => {

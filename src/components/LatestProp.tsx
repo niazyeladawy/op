@@ -1,7 +1,5 @@
-import { ChevronLeft, ChevronRight } from "lucide-react"
 import Container, { LeftAlignedFullWidth } from "./Container"
-import PropertyCard from "./PropertyCard"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel"
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs"
 import MiddleCarousel from "./ui/MiddleCarousel"
 

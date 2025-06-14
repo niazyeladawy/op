@@ -1,8 +1,4 @@
 import React from 'react'
-import Container from './Container'
-import { Input } from './ui/input'
-import { SelectInput } from './Select'
-import { ArrowRight, RotateCcw, Search } from 'lucide-react'
 
 const HeroCard = () => {
     return (

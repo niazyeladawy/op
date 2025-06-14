@@ -7,6 +7,7 @@ import {
   CarouselPrevious,
 } from "./ui/carousel"
 import { ArrowLeftIcon, ArrowRightIcon, WhatsAppIcon } from "./icons/CustomIcon"
+import Image from "next/image"
 
 const PropertyCard = () => {
   return (
@@ -17,17 +18,24 @@ const PropertyCard = () => {
             {Array.from({ length: 5 }).map((_, index) => (
               <CarouselItem className="h-full" key={index}>
                 <div className="aspect-[16/12] w-full overflow-hidden  bg-gray-200">
-                  <img
+                  {/* <img
                     src={`https://www.oiaproperties.com//uploads/properties/eOP78f6ELoN7uOysW52hZSLfhjKcrQylja9RYhzj_watermarked.webp`}
                     alt={`Slide ${index + 1}`}
                     className="w-full h-full object-cover"
+                  /> */}
+                  <Image
+                    alt="Property"
+                    className="w-full h-full object-cover"
+                    width={800}
+                    height={800}
+                    src="/images/eOP78f6ELoN7uOysW52hZSLfhjKcrQylja9RYhzj_watermarked.webp"
                   />
                 </div>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="left-2 md:left-6 z-[15] backdrop-blur-lg bg-black/30 hover:bg-black/30 border-none text-white hover:text-white" ><ArrowLeftIcon/></CarouselPrevious>
-          <CarouselNext className="right-6 z-[15] backdrop-blur-lg bg-black/30 hover:bg-black/30 border-none text-white hover:text-white" ><ArrowRightIcon/></CarouselNext>
+          <CarouselPrevious className="left-2 md:left-6 z-[15] backdrop-blur-lg bg-black/30 hover:bg-black/30 border-none text-white hover:text-white" ><ArrowLeftIcon /></CarouselPrevious>
+          <CarouselNext className="right-6 z-[15] backdrop-blur-lg bg-black/30 hover:bg-black/30 border-none text-white hover:text-white" ><ArrowRightIcon /></CarouselNext>
         </Carousel>
         <div className="absolute inset-0 flex flex-col px-4 md:px-3 p-3  ">
           <div>
@@ -56,7 +64,13 @@ const PropertyCard = () => {
         </ul>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img className="w-10 h-10 rounded-full" src="https://placehold.co/100x100/EEE/31343C" alt="" />
+            <Image
+              src="https://placehold.co/100x100/EEE/31343C"
+              alt="Profile picture"
+              width={40}
+              height={40}
+              className="w-10 h-10 rounded-full"
+            />
             <span className="font-medium capitalize">jane smith</span>
           </div>
           <a href="" className="py-[6px] px-4 text-sec rounded-full border border-sec">details</a>

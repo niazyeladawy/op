@@ -1,7 +1,6 @@
 "use client"
 import * as React from "react"
 
-import { Card, CardContent } from "@/components/ui/card"
 import {
     Carousel,
     CarouselContent,
@@ -11,7 +10,7 @@ import {
 } from "@/components/ui/carousel"
 import Container from "./Container"
 import HeroCard from "./HeroCard"
-import { ArrowRight, ChevronLeft, ChevronRight, RotateCcw, Search, SlidersHorizontal } from "lucide-react"
+import { ArrowRight,  RotateCcw, Search, SlidersHorizontal } from "lucide-react"
 import { Input } from "./ui/input"
 import { SelectInput } from "./Select"
 import MainButton from "./MainButton"
@@ -138,7 +137,7 @@ export function HeroCarousel() {
 
                                 </div>
 
-                                <div className='relative md:static flex flex-row md:flex-col md:flex-row gap-2 mt-3'>
+                                <div className='relative md:static flex flex-row  md:flex-row gap-2 mt-3'>
                                     <div className="relative w-full max-w-md z-[100]">
                                         <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
                                         <Input

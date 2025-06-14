@@ -7,9 +7,9 @@ const OFFPlanCard = () => {
         <div>
             <div className='px-4 md:px-0'> <h3 className='text-center font-bold text-xl md:text-3xl uppercase text-main2 mb-[50px]'>saadiyat lagoons</h3>
                 <ul className='w-[calc(100%+32px)] left-[-16px] md:left-0 relative md:w-full flex justify-center gap-4 mb-10 whitespace-nowrap overflow-auto'>
-                    <li className='text-main uppercase text-xl font-medium'>4 bhk villa + maid's </li>
-                    <li className='text-main uppercase text-xl font-medium'>5 bhk villa + maid's </li>
-                    <li className='text-main uppercase text-xl font-medium'>6 bhk villa + maid's </li>
+                    <li className='text-main uppercase text-xl font-medium'>4 bhk villa + maid&apos;s </li>
+                    <li className='text-main uppercase text-xl font-medium'>5 bhk villa + maid&apos;s </li>
+                    <li className='text-main uppercase text-xl font-medium'>6 bhk villa + maid&apos;s </li>
                 </ul></div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 rounded-xl overflow-hidden">

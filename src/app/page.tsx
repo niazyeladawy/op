@@ -1,4 +1,3 @@
-import { LeftAlignedFullWidth, TwoColumnContainer } from "@/components/Container";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import LatestProp from "@/components/LatestProp";
 import OffPlan from "@/components/OffPlan";
