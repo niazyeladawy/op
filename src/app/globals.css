@@ -239,19 +239,29 @@ div[data-slot="carousel-content"] {
   height: 30px;
 }
 
-.off-slider .swiper-pagination{
+.off-slider .swiper-pagination {
   position: relative;
   margin-top: 10px;
 }
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
   background-color: var(--color-main2) !important;
   width: 50px !important;
   border-radius: 50px !important;
 }
-.hero-banner{
-  min-height:calc(100dvh - 80px);
+
+.hero-banner {
+  min-height: calc(100dvh - 80px);
 }
+
+.container-left {
+  padding-left: var(--container-left-offset);
+}
+
 @media (max-width: 1023px) {
+.container-left {
+  padding-left: 20px;
+}
 
   .props-slider .swiper-button-next,
   .props-slider .swiper-button-prev {

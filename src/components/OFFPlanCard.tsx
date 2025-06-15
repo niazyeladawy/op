@@ -5,8 +5,8 @@ import Image from 'next/image'
 const OFFPlanCard = () => {
     return (
         <div>
-            <div className='px-4 md:px-0'> <h3 className='text-center font-bold text-xl md:text-3xl uppercase text-main2 mb-[50px]'>saadiyat lagoons</h3>
-                <ul className='w-[calc(100%+32px)] left-[-16px] md:left-0 relative md:w-full flex justify-center gap-4 mb-10 whitespace-nowrap overflow-auto'>
+            <div className='px-4 lg:px-0'> <h3 className='text-center font-bold text-xl lg:text-3xl uppercase text-main2 mb-[50px]'>saadiyat lagoons</h3>
+                <ul className='w-[calc(100%+32px)] left-[-16px] lg:left-0 relative lg:w-full flex justify-center gap-4 mb-10 whitespace-nowrap overflow-auto'>
                     <li className='text-main uppercase text-xl font-medium'>4 bhk villa + maid&apos;s </li>
                     <li className='text-main uppercase text-xl font-medium'>5 bhk villa + maid&apos;s </li>
                     <li className='text-main uppercase text-xl font-medium'>6 bhk villa + maid&apos;s </li>
@@ -21,7 +21,7 @@ const OFFPlanCard = () => {
                         <li><strong className='capitalize'>number of bedrooms: </strong> <span className='font-semibold text-sec uppercase'> 4, 5, 6</span></li>
                         <li><strong className='capitalize'>area size form: </strong> <span className='font-semibold text-sec uppercase'> 4,960 sq.ft</span></li>
                     </ul>
-                    <MainButton className='w-full md:w-fit'>book your property</MainButton>
+                    <MainButton className='w-full lg:w-fit'>book your property</MainButton>
 
                 </div>
                 <div>

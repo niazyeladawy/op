@@ -92,13 +92,13 @@ export function NavbarMenu() {
                         </NavigationMenuItem>
                     </NavigationMenuList>
                     <div className="flex items-center gap-3">
-                        <a href="" className="hidden md:flex bg-sec py-2 px-4 text-sm cursor-pointer rounded-full  items-center gap-2 w-fit text-main2 capitalize font-medium">free consultaion <ArrowRight width={16} /> </a>
+                        <a href="" className="hidden lg:flex bg-sec py-2 px-4 text-sm cursor-pointer rounded-full  items-center gap-2 w-fit text-main2 capitalize font-medium">free consultaion <ArrowRight width={16} /> </a>
                         <button className="bg-muted w-8 h-8 flex items-center justify-center rounded-sm text-sec"><HeartIcon width={16} /></button>
-                        <button onClick={() => setMenuOpen(!menuOpen)} className={`md:hidden  w-8 h-8 flex items-center justify-center rounded-sm text-black `}>{!menuOpen ? <Menu /> : <X />}</button>
+                        <button onClick={() => setMenuOpen(!menuOpen)} className={`lg:hidden  w-8 h-8 flex items-center justify-center rounded-sm text-black `}>{!menuOpen ? <Menu /> : <X />}</button>
                     </div>
                 </div>
-                <div className={`md:hidden absolute w-full h-screen top-0 right-0 bg-white duration-300 ${menuOpen ? "translate-x-0" : "translate-x-[-100%]"} `}>
-                    <NavigationMenuList className="pt-[100px] px-4 flex-col items-start">
+                <div className={`lg:hidden absolute w-full h-screen top-0 px-4 right-0 bg-white duration-300 ${menuOpen ? "translate-x-0" : "translate-x-[-100%]"} `}>
+                    <NavigationMenuList className="pt-[100px]  flex-col items-start">
                         <NavigationMenuItem>
                             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                                 <Link href="/docs" className="text-sec font-medium uppercase">rent/buy</Link>
@@ -138,6 +138,8 @@ export function NavbarMenu() {
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                     </NavigationMenuList>
+
+                      <a href="" className="flex lg:hidden bg-sec py-2 px-4 m-4 text-sm cursor-pointer rounded-full  items-center gap-2 w-fit text-main2 capitalize font-medium ">free consultaion <ArrowRight width={16} /> </a>
                 </div>
             </Container>
         </NavigationMenu>

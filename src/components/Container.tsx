@@ -40,10 +40,8 @@ export default function Container({ children, className = "" }: ContainerProps) 
 const LeftAlignedFullWidth = ({ children }: { children: React.ReactNode }) => {
   return (
     <div
-      className="w-full ps-4 md:ps-0"
-      style={{
-        paddingLeft: "var(--container-left-offset)",
-      }}
+      className="w-full ps-4 container-left "
+     
     >
       {children}
     </div>

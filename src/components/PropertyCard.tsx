@@ -34,10 +34,10 @@ const PropertyCard = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="left-2 md:left-6 z-[15] backdrop-blur-lg bg-black/30 hover:bg-black/30 border-none text-white hover:text-white" ><ArrowLeftIcon /></CarouselPrevious>
+          <CarouselPrevious className="left-2 lg:left-6 z-[15] backdrop-blur-lg bg-black/30 hover:bg-black/30 border-none text-white hover:text-white" ><ArrowLeftIcon /></CarouselPrevious>
           <CarouselNext className="right-6 z-[15] backdrop-blur-lg bg-black/30 hover:bg-black/30 border-none text-white hover:text-white" ><ArrowRightIcon /></CarouselNext>
         </Carousel>
-        <div className="absolute inset-0 flex flex-col px-4 md:px-3 p-3  ">
+        <div className="absolute inset-0 flex flex-col px-4 lg:px-3 p-3  ">
           <div>
             <div className="flex items-center justify-between" >
               <span className="block py-2 px-3 bg-sec rounded-sm text-white w-fit capitalize text-sm">for sale</span>

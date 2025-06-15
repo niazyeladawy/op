@@ -67,7 +67,7 @@ const LatestProp = () => {
                         <MiddleCarousel />
                     </TabsContent>
                 </Tabs>
-                <div className="flex justify-center mt-4 md:hidden">
+                <div className="flex justify-center mt-4 lg:hidden">
                     <a href="" className="block text-center border-main2 border capitalize rounded-full p-1 px-4  font-medium text-main2 w-fit">All properties</a>
                 </div>
 

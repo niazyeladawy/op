@@ -18,9 +18,9 @@ const OffPlan = () => {
                                 </CarouselItem>
                             ))}
                         </CarouselContent>
-                        <CarouselPrevious  className=" top-0 translate-0 md:w-[60px] md:h-[60px] rounded-xl border-none bg-[#dadade] hover:bg-[#dadade] cursor-pointer  md:[&>svg]:!w-8 md:[&>svg]:!h-8  md:left-0 left-4" ><ArrowLeftIcon /></CarouselPrevious>
+                        <CarouselPrevious  className=" top-0 translate-0 lg:w-[60px] lg:h-[60px] rounded-xl border-none bg-[#dadade] hover:bg-[#dadade] cursor-pointer  lg:[&>svg]:!w-8 lg:[&>svg]:!h-8  lg:left-0 left-4" ><ArrowLeftIcon /></CarouselPrevious>
 
-                        <CarouselNext className="top-0 translate-0 md:w-[60px] md:h-[60px] rounded-xl border-none bg-[#dadade]  md:[&>svg]:!w-8 md:[&>svg]:!h-8 hover:bg-[#dadade] cursor-pointer right-4 md:right-0" >
+                        <CarouselNext className="top-0 translate-0 lg:w-[60px] lg:h-[60px] rounded-xl border-none bg-[#dadade]  lg:[&>svg]:!w-8 lg:[&>svg]:!h-8 hover:bg-[#dadade] cursor-pointer right-4 lg:right-0" >
                             <ArrowRightIcon />
                         </CarouselNext>
                     </Carousel> */}

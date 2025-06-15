@@ -1,35 +1,28 @@
-import * as React from "react"
+import * as React from "react";
 
 import {
   Select,
   SelectContent,
   SelectGroup,
-  SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
+} from "@/components/ui/select";
 
 interface SelectInputProps {
-  className?: string
+  className?: string;
+  children: React.ReactNode;
+  placeholder?: string;
 }
 
-export function SelectInput({ className }: SelectInputProps) {
+export function SelectInput({ className, children, placeholder = "Select an option" }: SelectInputProps) {
   return (
-    <Select >
+    <Select>
       <SelectTrigger className={`w-[180px] bg-white text-black ${className}`}>
-        <SelectValue placeholder="Select a fruit" />
+        <SelectValue placeholder={placeholder} />
       </SelectTrigger>
       <SelectContent>
-        <SelectGroup>
-          <SelectLabel>Fruits</SelectLabel>
-          <SelectItem value="apple">Apple</SelectItem>
-          <SelectItem value="banana">Banana</SelectItem>
-          <SelectItem value="blueberry">Blueberry</SelectItem>
-          <SelectItem value="grapes">Grapes</SelectItem>
-          <SelectItem value="pineapple">Pineapple</SelectItem>
-        </SelectGroup>
+        <SelectGroup>{children}</SelectGroup>
       </SelectContent>
     </Select>
-  )
+  );
 }
